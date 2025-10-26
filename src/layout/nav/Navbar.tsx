@@ -4,7 +4,7 @@ import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 export default function Navbar() {
   return (
-    <nav >
+    <nav id="nv">
       <div className="navbar-a">
        <h1 className="head">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</h1>
        <button className="shop-btn">ShopNow</button>
