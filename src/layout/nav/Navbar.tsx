@@ -1,4 +1,4 @@
-import "./Navbar.scss"
+import "./Navbar.scss";
 import { FaSearch } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";

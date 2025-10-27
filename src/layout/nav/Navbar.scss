@@ -95,34 +95,41 @@ $font-size:14px;
     }
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .navbar-b , .navbar-a{
- width: 320px;
- gap: 7px;
+ width: 100%;
+ height: auto;
+ box-sizing: border-box;
   }
   
   .navbar-a {
   .head{
-    font-size:8px;
+    font-size:12px;
   }
     .shop-btn{
-      font-size:9px;
-    }
-}
-  .navbar-b{
-       h1{
       font-size:12px;
+      padding: 16px;
+    }
+ }
+  .navbar-b{
+          flex-wrap: wrap; 
+         justify-content: center;
+         gap:20px;
+       h1{
+      font-size:15px;
     }
     .nav-links {
-      gap: 24px;
+      gap: 15px;
 
       li a {
-        font-size: 10px;
+        font-size: 15px;
       }
     }
     .nav-actions{
-            margin-top: 100px;
-           margin-left: -300px;
+      gap: 30px;
+      justify-content: center;
     }
+
   }
+  
 }
