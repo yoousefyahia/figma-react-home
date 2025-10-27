@@ -6,6 +6,7 @@ $font-size:14px;
   right: 0;
   position: fixed;
   width: 100%;
+  z-index: 10000 !important;
 }
 .navbar-a{
  background-color: #000000;
@@ -91,6 +92,37 @@ $font-size:14px;
     .icon-cart {
       font-size: 20px;
       cursor: pointer;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .navbar-b , .navbar-a{
+ width: 320px;
+ gap: 7px;
+  }
+  
+  .navbar-a {
+  .head{
+    font-size:8px;
+  }
+    .shop-btn{
+      font-size:9px;
+    }
+}
+  .navbar-b{
+       h1{
+      font-size:12px;
+    }
+    .nav-links {
+      gap: 24px;
+
+      li a {
+        font-size: 10px;
+      }
+    }
+    .nav-actions{
+            margin-top: 100px;
+           margin-left: -300px;
     }
   }
 }
