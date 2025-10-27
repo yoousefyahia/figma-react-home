@@ -4,9 +4,9 @@ $font-size:14px;
   top: 0;
   left: 0;
   right: 0;
-  position: fixed;
+  position:static;
   width: 100%;
-  z-index: 10000 !important;
+  z-index: 5;
 }
 .navbar-a{
  background-color: #000000;
