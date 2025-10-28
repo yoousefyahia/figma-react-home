@@ -1,3 +1,4 @@
+@import "../../styles/variables.css";
 $text-color: #fff;
 $font-size:14px;
 #nv{
@@ -9,7 +10,7 @@ $font-size:14px;
   z-index: 5;
 }
 .navbar-a{
- background-color: #000000;
+ background-color: var(--color-bg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,7 +102,7 @@ $font-size:14px;
  height: auto;
  box-sizing: border-box;
   }
-  
+
   .navbar-a {
   .head{
     font-size:12px;
@@ -112,7 +113,7 @@ $font-size:14px;
     }
  }
   .navbar-b{
-          flex-wrap: wrap; 
+          flex-wrap: wrap;
          justify-content: center;
          gap:20px;
        h1{
@@ -131,5 +132,5 @@ $font-size:14px;
     }
 
   }
-  
+
 }

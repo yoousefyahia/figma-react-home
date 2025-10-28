@@ -1,3 +1,4 @@
+@import "../../../styles/variables.css";
 *,
 *::before,
 *::after {
@@ -9,7 +10,7 @@
   width: 100%;
   box-sizing: border-box;
   gap: 20px;
- 
+
 
   .left-side {
     width: 25%;
@@ -23,7 +24,7 @@
   .right-side {
     width: 892px;
     height: 344px;
-    background-color: black;
+    background-color:var(--color-bg);
     position: relative;
     overflow: hidden;
     border-radius: 8px;
